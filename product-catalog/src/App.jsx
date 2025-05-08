@@ -5,6 +5,8 @@ import SearchBar from './components/SearchBar';
 import SortDropdown from './components/SortDropdown';
 import LaptopIMG from './assets/laptop_realistic.jpg';
 import TshirtIMG from './assets/Tshirt.jpg';
+import SmartphoneIMG from './assets/smartphone.jpg';
+import NovelIMG from './assets/novel.jpg';
 import './App.css';
 
 // Sample product data
@@ -28,14 +30,14 @@ const productsData = [
     name: "Smartphone",
     price: 699,
     category: "Electronics",
-    image_url: "/api/placeholder/150/150"
+    image_url: SmartphoneIMG 
   },
   {
     id: 4,
     name: "Novel",
     price: 15,
     category: "Books",
-    image_url: "/api/placeholder/150/150"
+    image_url: NovelIMG 
   },
   {
     id: 5,
